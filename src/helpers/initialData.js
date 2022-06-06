@@ -1,0 +1,43 @@
+const initialData = {
+  location: {
+    name: '-',
+    region: '-',
+    country: '-',
+    lat: -25.42,
+    lon: -49.25,
+    tz_id: 'America/Sao_Paulo',
+    localtime_epoch: 1654447521,
+    localtime: '2022-06-05 13:45',
+  },
+  current: {
+    last_updated_epoch: 1654447500,
+    last_updated: '2022-06-05 13:45',
+    temp_c: 0,
+    temp_f: 0,
+    is_day: 1,
+    condition: {
+      text: '-',
+      icon: 'Party clound',
+      code: 1003,
+    },
+    wind_mph: 4.3,
+    wind_kph: 6.8,
+    wind_degree: 30,
+    wind_dir: 'NNE',
+    pressure_mb: 1022.0,
+    pressure_in: 30.18,
+    precip_mm: 0.0,
+    precip_in: 0.0,
+    humidity: 77,
+    cloud: 75,
+    feelslike_c: 17.0,
+    feelslike_f: 62.6,
+    vis_km: 10.0,
+    vis_miles: 6.0,
+    uv: 4.0,
+    gust_mph: 4.5,
+    gust_kph: 7.2,
+  },
+};
+
+export default initialData;
