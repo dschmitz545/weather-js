@@ -1,5 +1,4 @@
-const KEY = '88f5ccf26f8c4523aac33833220406';
-// const dotenv = require('dotenv').config();
+const KEY = process.env.REACT_APP_API_KEY;
 
 const fetchData = async (cidade) => {
   const url = `https://api.weatherapi.com/v1/forecast.json?key=${KEY}&q=${cidade}&days=1&aqi=no&alerts=no`;
